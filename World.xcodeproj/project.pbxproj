@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		ABFD40FC2B473A1D00B1E0CE /* AVKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD40FB2B473A1D00B1E0CE /* AVKey.swift */; };
 		ABFD40FE2B47463F00B1E0CE /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD40FD2B47463F00B1E0CE /* Logger.swift */; };
+		ABFD41002B474B3400B1E0CE /* WWUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD40FF2B474B3400B1E0CE /* WWUtil.swift */; };
 		C200227D2988392F00732240 /* Entity+Sunlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200227C2988392F00732240 /* Entity+Sunlight.swift */; };
 		C200227F29883B3900732240 /* GlobeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200227E29883B3900732240 /* GlobeSettings.swift */; };
 		C20197A429E3D9C900C6A20F /* SatelliteEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20197A329E3D9C900C6A20F /* SatelliteEntity.swift */; };
@@ -58,6 +59,7 @@
 		6FD03BD460C2666C0917AC9F /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		ABFD40FB2B473A1D00B1E0CE /* AVKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVKey.swift; sourceTree = "<group>"; };
 		ABFD40FD2B47463F00B1E0CE /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		ABFD40FF2B474B3400B1E0CE /* WWUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWUtil.swift; sourceTree = "<group>"; };
 		BA5D813EE652D2B6F9AA7B35 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		C200227C2988392F00732240 /* Entity+Sunlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+Sunlight.swift"; sourceTree = "<group>"; };
 		C200227E29883B3900732240 /* GlobeSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeSettings.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 			children = (
 				ABFD40FB2B473A1D00B1E0CE /* AVKey.swift */,
 				ABFD40FD2B47463F00B1E0CE /* Logger.swift */,
+				ABFD40FF2B474B3400B1E0CE /* WWUtil.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -416,6 +419,7 @@
 				C2F31EFE29CC02D7009742AD /* Module.swift in Sources */,
 				C2F2CA342A391D4200E1C2A2 /* EarthSettings.swift in Sources */,
 				ABFD40FE2B47463F00B1E0CE /* Logger.swift in Sources */,
+				ABFD41002B474B3400B1E0CE /* WWUtil.swift in Sources */,
 				C2F31EFC29CC01BC009742AD /* TableOfContents.swift in Sources */,
 				C2DEDA242996FAAB00F5265B /* GlobeControls.swift in Sources */,
 				ABFD40FC2B473A1D00B1E0CE /* AVKey.swift in Sources */,
