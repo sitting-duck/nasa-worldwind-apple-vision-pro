@@ -11,6 +11,8 @@
 		ABFD40FE2B47463F00B1E0CE /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD40FD2B47463F00B1E0CE /* Logger.swift */; };
 		ABFD41002B474B3400B1E0CE /* WWUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD40FF2B474B3400B1E0CE /* WWUtil.swift */; };
 		ABFD41042B476F6A00B1E0CE /* Vec2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD41032B476F6A00B1E0CE /* Vec2.swift */; };
+		ABFD41062B4774A300B1E0CE /* Offset.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD41052B4774A300B1E0CE /* Offset.swift */; };
+		ABFD41082B4C91A800B1E0CE /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD41072B4C91A800B1E0CE /* Configuration.swift */; };
 		C200227D2988392F00732240 /* Entity+Sunlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200227C2988392F00732240 /* Entity+Sunlight.swift */; };
 		C200227F29883B3900732240 /* GlobeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200227E29883B3900732240 /* GlobeSettings.swift */; };
 		C20197A429E3D9C900C6A20F /* SatelliteEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20197A329E3D9C900C6A20F /* SatelliteEntity.swift */; };
@@ -62,6 +64,8 @@
 		ABFD40FD2B47463F00B1E0CE /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		ABFD40FF2B474B3400B1E0CE /* WWUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWUtil.swift; sourceTree = "<group>"; };
 		ABFD41032B476F6A00B1E0CE /* Vec2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vec2.swift; sourceTree = "<group>"; };
+		ABFD41052B4774A300B1E0CE /* Offset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offset.swift; sourceTree = "<group>"; };
+		ABFD41072B4C91A800B1E0CE /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		BA5D813EE652D2B6F9AA7B35 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		C200227C2988392F00732240 /* Entity+Sunlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+Sunlight.swift"; sourceTree = "<group>"; };
 		C200227E29883B3900732240 /* GlobeSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeSettings.swift; sourceTree = "<group>"; };
@@ -138,6 +142,8 @@
 				ABFD40FB2B473A1D00B1E0CE /* AVKey.swift */,
 				ABFD40FD2B47463F00B1E0CE /* Logger.swift */,
 				ABFD40FF2B474B3400B1E0CE /* WWUtil.swift */,
+				ABFD41052B4774A300B1E0CE /* Offset.swift */,
+				ABFD41072B4C91A800B1E0CE /* Configuration.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -430,6 +436,7 @@
 				C2F31EFE29CC02D7009742AD /* Module.swift in Sources */,
 				C2F2CA342A391D4200E1C2A2 /* EarthSettings.swift in Sources */,
 				ABFD40FE2B47463F00B1E0CE /* Logger.swift in Sources */,
+				ABFD41082B4C91A800B1E0CE /* Configuration.swift in Sources */,
 				ABFD41002B474B3400B1E0CE /* WWUtil.swift in Sources */,
 				C2F31EFC29CC01BC009742AD /* TableOfContents.swift in Sources */,
 				C2DEDA242996FAAB00F5265B /* GlobeControls.swift in Sources */,
@@ -451,6 +458,7 @@
 				C2CD36432A3A7682003811D3 /* ModuleCard.swift in Sources */,
 				C20197A429E3D9C900C6A20F /* SatelliteEntity.swift in Sources */,
 				C255636A291D8A0300398FCE /* Orbit.swift in Sources */,
+				ABFD41062B4774A300B1E0CE /* Offset.swift in Sources */,
 				C2F31F0029CC0858009742AD /* ModuleDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
