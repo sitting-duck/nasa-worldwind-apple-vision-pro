@@ -38,22 +38,42 @@ class Vec3: Vec2 {
         return Vec3(x: self.x, y: self.y, z: self.z)
     }
     
-    // Static method to compute the average of an array of Vec3
-    static func average(vectors: [Vec3], result: inout Vec3) throws {
+    static func average(vectors: [Vec3], result: inout Vec3) throws -> Vec3 {
         guard !vectors.isEmpty else {
-            throw WWError.customError(MessageTable.values["missingArray"] ?? "")
+            throw NSError(domain: "Vec3", code: -1, userInfo: [NSLocalizedDescriptionKey: "The array of vectors is empty."])
         }
-
+        
+        let count = Double(vectors.count)
         result.x = 0
         result.y = 0
         result.z = 0
-
-        let count = Double(vectors.count)
+        
         for vec in vectors {
             result.x += vec.x / count
             result.y += vec.y / count
             result.z += vec.z / count
         }
+        
+        return result
+    }
+    
+    static func averageOfBuffer(points: [Double], result: inout Vec3) throws -> Vec3 {
+        guard !points.isEmpty else {
+            throw NSError(domain: "Vec3", code: -1, userInfo: [NSLocalizedDescriptionKey: "The points array is empty."])
+        }
+        
+        let count = points.count / 3
+        result.x = 0
+        result.y = 0
+        result.z = 0
+        
+        for i in 0..<count {
+            result.x += points[i * 3] / Double(count)
+            result.y += points[i * 3 + 1] / Double(count)
+            result.z += points[i * 3 + 2] / Double(count)
+        }
+        
+        return result
     }
     
 }

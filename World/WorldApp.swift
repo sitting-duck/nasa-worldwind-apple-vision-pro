@@ -20,6 +20,7 @@ struct WorldApp: App {
 
     var body: some Scene {
         // The main window that presents the app's modules.
+        // program entry point
         WindowGroup("Hello World", id: "modules") {
             Modules()
                 .environment(model)
@@ -27,7 +28,14 @@ struct WorldApp: App {
         .windowStyle(.plain)
 
         // A volume that displays a globe.
+        // This window group creates a volume — which is a container that has three dimensions and behaves like a transparent box — because Hello
+        // World uses the volumetric window style scene modifier. People can move this box around the Shared Space like they move other window types,
+        // and the content remains fixed inside. The defaultSize(width:height:depth:in:) modifier specifies a size for the volume in meters,
+        // including a depth dimension.
         WindowGroup(id: Module.globe.name) {
+            // The Globe view inside the volume contains 3D content, but is still just a SwiftUI view. It contains two elements in a ZStack:
+            // a subview that draws a model of the Earth, and another that provides a control panel that people can use to configure the
+            // model’s appearance.
             Globe()
                 .environment(model)
         }

@@ -44,15 +44,22 @@ struct SolarSystemControls: View {
                 }
                 .labelStyle(.iconOnly)
 
+//                ZStack {
+//                    ForEach(Module.funFacts, id: \.self) { fact in
+//                        Text(fact)
+//                            .foregroundStyle(.secondary)
+//                            .padding(.horizontal)
+//                            .opacity(fact == Module.funFacts[factCount] ? 1 : 0)
+//                    }
+//                }
+//                .animation(.default, value: factCount)
                 ZStack {
-                    ForEach(Module.funFacts, id: \.self) { fact in
-                        Text(fact)
-                            .foregroundStyle(.secondary)
-                            .padding(.horizontal)
-                            .opacity(fact == Module.funFacts[factCount] ? 1 : 0)
-                    }
+                    Image("teapot.png")
+                        .resizable()
+                        .clipShape(Circle())
+                        .frame(width: 200, height: 200)
+                        .aspectRatio(contentMode: .fit)
                 }
-                .animation(.default, value: factCount)
 
                 Divider()
                     .padding()

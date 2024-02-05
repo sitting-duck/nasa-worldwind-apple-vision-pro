@@ -10,6 +10,8 @@
 		AB617DEE2B6970F900CC6880 /* XmlDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB617DED2B6970F900CC6880 /* XmlDocument.swift */; };
 		AB617DF02B6973F100CC6880 /* Vec3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB617DEF2B6973F100CC6880 /* Vec3.swift */; };
 		ABB1CE682B59C74A000435C5 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB1CE672B59C74A000435C5 /* Colors.swift */; };
+		ABF792152B6D6A1800CB8FF6 /* Teapot.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF792142B6D6A1800CB8FF6 /* Teapot.swift */; };
+		ABF792172B6DA40C00CB8FF6 /* TeapotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF792162B6DA40C00CB8FF6 /* TeapotView.swift */; };
 		ABFD40FC2B473A1D00B1E0CE /* AVKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD40FB2B473A1D00B1E0CE /* AVKey.swift */; };
 		ABFD40FE2B47463F00B1E0CE /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD40FD2B47463F00B1E0CE /* Logger.swift */; };
 		ABFD41002B474B3400B1E0CE /* WWUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD40FF2B474B3400B1E0CE /* WWUtil.swift */; };
@@ -67,6 +69,8 @@
 		AB617DED2B6970F900CC6880 /* XmlDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XmlDocument.swift; sourceTree = "<group>"; };
 		AB617DEF2B6973F100CC6880 /* Vec3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vec3.swift; sourceTree = "<group>"; };
 		ABB1CE672B59C74A000435C5 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		ABF792142B6D6A1800CB8FF6 /* Teapot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teapot.swift; sourceTree = "<group>"; };
+		ABF792162B6DA40C00CB8FF6 /* TeapotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TeapotView.swift; path = World/RealityViews/TeapotView.swift; sourceTree = SOURCE_ROOT; };
 		ABFD40FB2B473A1D00B1E0CE /* AVKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVKey.swift; sourceTree = "<group>"; };
 		ABFD40FD2B47463F00B1E0CE /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		ABFD40FF2B474B3400B1E0CE /* WWUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWUtil.swift; sourceTree = "<group>"; };
@@ -176,6 +180,7 @@
 				C20197A529E4805900C6A20F /* SatelliteEntity+Configuration.swift */,
 				C200227C2988392F00732240 /* Entity+Sunlight.swift */,
 				C25EFB6F29DE7D1500D3CBB6 /* Entity+Trace.swift */,
+				ABF792162B6DA40C00CB8FF6 /* TeapotView.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -307,6 +312,7 @@
 				C25E9E7728EBB5430033B333 /* Earth.swift */,
 				C205CF962919CD070067444C /* Sun.swift */,
 				C205CF942919C70D0067444C /* Starfield.swift */,
+				ABF792142B6D6A1800CB8FF6 /* Teapot.swift */,
 			);
 			path = RealityViews;
 			sourceTree = "<group>";
@@ -431,6 +437,7 @@
 				C25EFB7029DE7D1500D3CBB6 /* Entity+Trace.swift in Sources */,
 				C25AD07D29EC6C1E0012834D /* EarthEntity.swift in Sources */,
 				C200227F29883B3900732240 /* GlobeSettings.swift in Sources */,
+				ABF792152B6D6A1800CB8FF6 /* Teapot.swift in Sources */,
 				C205CF952919C70D0067444C /* Starfield.swift in Sources */,
 				C2A823602A859109006F6AFF /* OrbitToggle.swift in Sources */,
 				C200227D2988392F00732240 /* Entity+Sunlight.swift in Sources */,
@@ -461,6 +468,7 @@
 				C20197A629E4805900C6A20F /* SatelliteEntity+Configuration.swift in Sources */,
 				AB617DF02B6973F100CC6880 /* Vec3.swift in Sources */,
 				C25774DB29E23F8D00A75567 /* GlobeModule.swift in Sources */,
+				ABF792172B6DA40C00CB8FF6 /* TeapotView.swift in Sources */,
 				C25774E129E240EC00A75567 /* OrbitModule.swift in Sources */,
 				C2A0F2B029D115150009D46C /* SettingsButton.swift in Sources */,
 				C22D1AF228EB403400CE0F8F /* WorldApp.swift in Sources */,
