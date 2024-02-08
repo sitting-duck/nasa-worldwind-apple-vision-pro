@@ -68,7 +68,7 @@ def Xform "Root"
                 customData = {
                     dictionary realitykit = {
                         float2 positionInSubgraph = (-1264.289, -416.9925)
-                        float2 sizeInSubgraph = (179, 43)
+                        float2 sizeInSubgraph = (179, 53)
                         int stackingOrderInSubgraph = 4740
                     }
                 }
@@ -77,7 +77,7 @@ def Xform "Root"
                 customData = {
                     dictionary realitykit = {
                         float2 positionInSubgraph = (-1015.18835, 561.2635)
-                        float2 sizeInSubgraph = (132, 43)
+                        float2 sizeInSubgraph = (132, 53)
                         int stackingOrderInSubgraph = 4755
                     }
                 }
@@ -87,7 +87,7 @@ def Xform "Root"
             token outputs:surface
             string[] ui:nodegraph:realitykit:node:attributesShowingChildren = ["outputs:realitykit:vertex"]
             float2 ui:nodegraph:realitykit:subgraphOutputs:pos = (473.06213, 98.61276)
-            float2 ui:nodegraph:realitykit:subgraphOutputs:size = (181.5, 89)
+            float2 ui:nodegraph:realitykit:subgraphOutputs:size = (182, 99)
             int ui:nodegraph:realitykit:subgraphOutputs:stackingOrder = 1105
 
             def Shader "UsdPreviewSurface" (
@@ -129,7 +129,7 @@ def Xform "Root"
                 string inputs:vaddressmode
                 color3f outputs:out
                 float2 ui:nodegraph:node:pos = (-1143.6326, -706.6233)
-                float2 ui:nodegraph:node:size = (148.5, 189)
+                float2 ui:nodegraph:node:size = (149, 199)
                 int ui:nodegraph:node:stackingOrder = 4712
                 string[] ui:nodegraph:realitykit:node:attributesShowingChildren = ["inputs:uaddressmode"]
             }
@@ -145,7 +145,7 @@ def Xform "Root"
                 string inputs:vaddressmode
                 color3f outputs:out
                 float2 ui:nodegraph:node:pos = (-534.3439, 184.24103)
-                float2 ui:nodegraph:node:size = (148.5, 189)
+                float2 ui:nodegraph:node:size = (149, 199)
                 int ui:nodegraph:node:stackingOrder = 4743
                 string[] ui:nodegraph:realitykit:node:attributesShowingChildren = ["inputs:default", "inputs:texcoord", "inputs:vaddressmode"]
             }
@@ -167,7 +167,7 @@ def Xform "Root"
                 float inputs:roughness.connect = None
                 token outputs:out
                 float2 ui:nodegraph:node:pos = (177.18837, 32.647778)
-                float2 ui:nodegraph:node:size = (215.5, 297)
+                float2 ui:nodegraph:node:size = (216, 307)
                 int ui:nodegraph:node:stackingOrder = 4742
                 string[] ui:nodegraph:realitykit:node:attributesShowingChildren = ["Advanced", "inputs:metallic"]
             }
@@ -179,7 +179,7 @@ def Xform "Root"
                 string inputs:filtertype
                 float outputs:out
                 float2 ui:nodegraph:node:pos = (-989.9846, -132.33618)
-                float2 ui:nodegraph:node:size = (148.5, 189)
+                float2 ui:nodegraph:node:size = (149, 199)
                 int ui:nodegraph:node:stackingOrder = 3037
                 string[] ui:nodegraph:realitykit:node:attributesShowingChildren = ["outputs:out"]
             }
@@ -194,7 +194,7 @@ def Xform "Root"
                 string inputs:vaddressmode
                 float3 outputs:out
                 float2 ui:nodegraph:node:pos = (-1021.13446, 72.12626)
-                float2 ui:nodegraph:node:size = (148.5, 189)
+                float2 ui:nodegraph:node:size = (149, 199)
                 int ui:nodegraph:node:stackingOrder = 4029
             }
 
@@ -205,7 +205,7 @@ def Xform "Root"
                 float inputs:in2.connect = </Root/Earth/Earth/Multiply_2.outputs:out>
                 color3f outputs:out
                 float2 ui:nodegraph:node:pos = (-235.42159, 87.752975)
-                float2 ui:nodegraph:node:size = (60, 36)
+                float2 ui:nodegraph:node:size = (61, 36)
                 int ui:nodegraph:node:stackingOrder = 4744
             }
 
@@ -215,7 +215,7 @@ def Xform "Root"
                 float inputs:in.connect = </Root/Earth/Earth/roughness.outputs:out>
                 float outputs:out
                 float2 ui:nodegraph:node:pos = (-741.58594, -22.648438)
-                float2 ui:nodegraph:node:size = (158, 99)
+                float2 ui:nodegraph:node:size = (158, 109)
                 int ui:nodegraph:node:stackingOrder = 4741
             }
 
@@ -227,7 +227,7 @@ def Xform "Root"
                 float inputs:in3.connect = </Root/Earth/Earth/DotProduct.outputs:out>
                 color3f outputs:out
                 float2 ui:nodegraph:node:pos = (-240.70544, 474.23)
-                float2 ui:nodegraph:node:size = (145, 54)
+                float2 ui:nodegraph:node:size = (146, 54)
                 int ui:nodegraph:node:stackingOrder = 4756
             }
 
@@ -238,7 +238,7 @@ def Xform "Root"
                 float3 inputs:in2.connect = </Root/Earth/Earth/Normal.outputs:out>
                 float outputs:out
                 float2 ui:nodegraph:node:pos = (-529.7631, 591.72534)
-                float2 ui:nodegraph:node:size = (153.5, 43)
+                float2 ui:nodegraph:node:size = (154, 53)
                 int ui:nodegraph:node:stackingOrder = 4624
             }
 
@@ -248,7 +248,7 @@ def Xform "Root"
                 string inputs:space = "object"
                 float3 outputs:out
                 float2 ui:nodegraph:node:pos = (-756.7153, 656.56464)
-                float2 ui:nodegraph:node:size = (128.5, 30)
+                float2 ui:nodegraph:node:size = (128, 40)
                 int ui:nodegraph:node:stackingOrder = 4757
             }
 
@@ -258,7 +258,7 @@ def Xform "Root"
                     customData = {
                         dictionary realitykit = {
                             float2 positionInSubgraph = (63.5, 356.25)
-                            float2 sizeInSubgraph = (117.5, 43)
+                            float2 sizeInSubgraph = (118, 53)
                             int stackingOrderInSubgraph = 2983
                         }
                     }
@@ -266,10 +266,10 @@ def Xform "Root"
                 float inputs:Add_in1.connect = </Root/Earth/Earth.inputs:sun_angle>
                 float3 outputs:Combine3_out.connect = </Root/Earth/Earth/vector_from_float/Combine3.outputs:out>
                 float2 ui:nodegraph:node:pos = (-756.07855, 552.8739)
-                float2 ui:nodegraph:node:size = (164, 99)
+                float2 ui:nodegraph:node:size = (164, 109)
                 int ui:nodegraph:node:stackingOrder = 4763
                 float2 ui:nodegraph:realitykit:subgraphOutputs:pos = (1528.5, 35.5)
-                float2 ui:nodegraph:realitykit:subgraphOutputs:size = (157.30437, 71)
+                float2 ui:nodegraph:realitykit:subgraphOutputs:size = (224.50789, 81)
 
                 def Shader "Multiply"
                 {
@@ -278,7 +278,7 @@ def Xform "Root"
                     float inputs:in2.connect = </Root/Earth/Earth/vector_from_float/two_pi.outputs:out>
                     float outputs:out
                     float2 ui:nodegraph:node:pos = (638, 174.75)
-                    float2 ui:nodegraph:node:size = (60, 36)
+                    float2 ui:nodegraph:node:size = (61, 36)
                     int ui:nodegraph:node:stackingOrder = 2981
                 }
 
@@ -289,7 +289,7 @@ def Xform "Root"
                     float inputs:in2.connect = </Root/Earth/Earth/vector_from_float/offset.outputs:out>
                     float outputs:out
                     float2 ui:nodegraph:node:pos = (217.75, 283.25)
-                    float2 ui:nodegraph:node:size = (61.5, 36)
+                    float2 ui:nodegraph:node:size = (63, 37)
                     int ui:nodegraph:node:stackingOrder = 2981
                 }
 
@@ -299,7 +299,7 @@ def Xform "Root"
                     float inputs:in.connect = </Root/Earth/Earth/vector_from_float/pi_over_2.outputs:out>
                     float outputs:out
                     float2 ui:nodegraph:node:pos = (1113.5, 174.75)
-                    float2 ui:nodegraph:node:size = (116, 30)
+                    float2 ui:nodegraph:node:size = (116, 40)
                     int ui:nodegraph:node:stackingOrder = 2981
                 }
 
@@ -311,7 +311,7 @@ def Xform "Root"
                     float inputs:in3.connect = None
                     float3 outputs:out
                     float2 ui:nodegraph:node:pos = (1304, 35.5)
-                    float2 ui:nodegraph:node:size = (145, 54)
+                    float2 ui:nodegraph:node:size = (146, 54)
                     int ui:nodegraph:node:stackingOrder = 2986
                 }
 
@@ -321,7 +321,7 @@ def Xform "Root"
                     float inputs:in1.connect = </Root/Earth/Earth/vector_from_float/Multiply.outputs:out>
                     float outputs:out
                     float2 ui:nodegraph:node:pos = (758.75, 174.75)
-                    float2 ui:nodegraph:node:size = (61.5, 36)
+                    float2 ui:nodegraph:node:size = (63, 36)
                     int ui:nodegraph:node:stackingOrder = 2984
                 }
 
@@ -331,7 +331,7 @@ def Xform "Root"
                     float inputs:in.connect = </Root/Earth/Earth/vector_from_float/pi_over_2.outputs:out>
                     float outputs:out
                     float2 ui:nodegraph:node:pos = (1130.7461, -5.5625)
-                    float2 ui:nodegraph:node:size = (116, 30)
+                    float2 ui:nodegraph:node:size = (116, 40)
                     int ui:nodegraph:node:stackingOrder = 2981
                 }
 
@@ -342,7 +342,7 @@ def Xform "Root"
                     float inputs:value.connect = </Root/Earth/Earth/vector_from_float/Subtract.outputs:out>
                     float outputs:out
                     float2 ui:nodegraph:node:pos = (922.5, 174.75)
-                    float2 ui:nodegraph:node:size = (146, 43)
+                    float2 ui:nodegraph:node:size = (147, 53)
                     int ui:nodegraph:node:stackingOrder = 2987
                 }
 
@@ -353,7 +353,7 @@ def Xform "Root"
                     float inputs:in2.connect = </Root/Earth/Earth/vector_from_float/Floor.outputs:out>
                     float outputs:out
                     float2 ui:nodegraph:node:pos = (517.25, 268.75)
-                    float2 ui:nodegraph:node:size = (61.5, 36)
+                    float2 ui:nodegraph:node:size = (63, 36)
                     int ui:nodegraph:node:stackingOrder = 2981
                 }
 
@@ -363,7 +363,7 @@ def Xform "Root"
                     float inputs:in.connect = </Root/Earth/Earth/vector_from_float/Add.outputs:out>
                     float outputs:out
                     float2 ui:nodegraph:node:pos = (374.7539, 312.6289)
-                    float2 ui:nodegraph:node:size = (118, 30)
+                    float2 ui:nodegraph:node:size = (118, 40)
                     int ui:nodegraph:node:stackingOrder = 2981
                 }
 
@@ -373,7 +373,7 @@ def Xform "Root"
                     float inputs:value = 6.28319
                     float outputs:out
                     float2 ui:nodegraph:node:pos = (455.4375, 191.1836)
-                    float2 ui:nodegraph:node:size = (127, 43)
+                    float2 ui:nodegraph:node:size = (128, 53)
                     int ui:nodegraph:node:stackingOrder = 2981
                 }
 
@@ -383,7 +383,7 @@ def Xform "Root"
                     float inputs:value = 0.8
                     float outputs:out
                     float2 ui:nodegraph:node:pos = (63.5, 253.25)
-                    float2 ui:nodegraph:node:size = (121.5, 43)
+                    float2 ui:nodegraph:node:size = (123, 53)
                     int ui:nodegraph:node:stackingOrder = 2982
                 }
             }
@@ -395,7 +395,7 @@ def Xform "Root"
                 float inputs:in2 = 2
                 float3 outputs:out
                 float2 ui:nodegraph:node:pos = (-382.20312, 9.136719)
-                float2 ui:nodegraph:node:size = (60, 36)
+                float2 ui:nodegraph:node:size = (61, 36)
                 int ui:nodegraph:node:stackingOrder = 4030
                 string[] ui:nodegraph:realitykit:node:attributesShowingChildren = ["outputs:out"]
             }
@@ -406,7 +406,7 @@ def Xform "Root"
                 float inputs:value = 0.1
                 float outputs:out
                 float2 ui:nodegraph:node:pos = (-287.78458, 247.26201)
-                float2 ui:nodegraph:node:size = (141.5, 43)
+                float2 ui:nodegraph:node:size = (143, 53)
                 int ui:nodegraph:node:stackingOrder = 4762
             }
 
@@ -417,7 +417,7 @@ def Xform "Root"
                 float inputs:in2.connect = </Root/Earth/Earth/Constant.outputs:out>
                 color3f outputs:out
                 float2 ui:nodegraph:node:pos = (-115.66391, 136.09091)
-                float2 ui:nodegraph:node:size = (60, 36)
+                float2 ui:nodegraph:node:size = (61, 36)
                 int ui:nodegraph:node:stackingOrder = 4761
             }
 
@@ -428,7 +428,7 @@ def Xform "Root"
                 float inputs:in2 = -1
                 float outputs:out
                 float2 ui:nodegraph:node:pos = (-415.40244, 413.61984)
-                float2 ui:nodegraph:node:size = (60, 36)
+                float2 ui:nodegraph:node:size = (61, 36)
                 int ui:nodegraph:node:stackingOrder = 4753
             }
 
@@ -439,7 +439,7 @@ def Xform "Root"
                 float3 inputs:in2 = (1, 1, 1)
                 float3 outputs:out
                 float2 ui:nodegraph:node:pos = (-282.0731, 15.470109)
-                float2 ui:nodegraph:node:size = (61.5, 36)
+                float2 ui:nodegraph:node:size = (63, 36)
                 int ui:nodegraph:node:stackingOrder = 4031
             }
 
@@ -450,7 +450,7 @@ def Xform "Root"
                 float3 inputs:in2 = (0.02, 0.04, 1)
                 float3 outputs:out
                 float2 ui:nodegraph:node:pos = (-138.45883, 14.108262)
-                float2 ui:nodegraph:node:size = (60, 36)
+                float2 ui:nodegraph:node:size = (61, 36)
                 int ui:nodegraph:node:stackingOrder = 4040
                 string[] ui:nodegraph:realitykit:node:attributesShowingChildren = ["outputs:out"]
             }
@@ -461,7 +461,7 @@ def Xform "Root"
                     customData = {
                         dictionary realitykit = {
                             float2 positionInSubgraph = (60.945312, 132.1211)
-                            float2 sizeInSubgraph = (172.5, 43)
+                            float2 sizeInSubgraph = (173, 53)
                             int stackingOrderInSubgraph = 4582
                         }
                     }
@@ -471,7 +471,7 @@ def Xform "Root"
                     customData = {
                         dictionary realitykit = {
                             float2 positionInSubgraph = (73.77344, 291.51172)
-                            float2 sizeInSubgraph = (193, 43)
+                            float2 sizeInSubgraph = (193, 53)
                             int stackingOrderInSubgraph = 4582
                         }
                     }
@@ -479,11 +479,11 @@ def Xform "Root"
                 float2 inputs:texture_coordinates.connect = </Root/Earth/Earth/texcoord.outputs:out>
                 float2 outputs:texture_coordinates.connect = </Root/Earth/Earth/pan_uvs/combine2.outputs:out>
                 float2 ui:nodegraph:node:pos = (-1017.20624, -395.8632)
-                float2 ui:nodegraph:node:size = (148.5, 117)
+                float2 ui:nodegraph:node:size = (149, 127)
                 int ui:nodegraph:node:stackingOrder = 4677
                 string[] ui:nodegraph:realitykit:node:attributesShowingChildren = ["inputs:multiply2_in2"]
                 float2 ui:nodegraph:realitykit:subgraphOutputs:pos = (1183.1229, 44.21488)
-                float2 ui:nodegraph:realitykit:subgraphOutputs:size = (211.9964, 71)
+                float2 ui:nodegraph:realitykit:subgraphOutputs:size = (249.58038, 81)
                 int ui:nodegraph:realitykit:subgraphOutputs:stackingOrder = 4587
 
                 def Shader "subtract"
@@ -493,7 +493,7 @@ def Xform "Root"
                     float inputs:in2.connect = </Root/Earth/Earth/pan_uvs/floor.outputs:out>
                     float outputs:out
                     float2 ui:nodegraph:node:pos = (540.25, 118)
-                    float2 ui:nodegraph:node:size = (61.5, 36)
+                    float2 ui:nodegraph:node:size = (63, 36)
                     int ui:nodegraph:node:stackingOrder = 4571
                 }
 
@@ -504,7 +504,7 @@ def Xform "Root"
                     float inputs:in2.connect = </Root/Earth/Earth/pan_uvs/subtract.outputs:out>
                     float outputs:out
                     float2 ui:nodegraph:node:pos = (661.75, 148)
-                    float2 ui:nodegraph:node:size = (61.5, 36)
+                    float2 ui:nodegraph:node:size = (63, 37)
                     int ui:nodegraph:node:stackingOrder = 4571
                 }
 
@@ -515,7 +515,7 @@ def Xform "Root"
                     float inputs:in2.connect = </Root/Earth/Earth/pan_uvs/separate2.outputs:outy>
                     float2 outputs:out
                     float2 ui:nodegraph:node:pos = (837.86664, 183.70155)
-                    float2 ui:nodegraph:node:size = (142.5, 43)
+                    float2 ui:nodegraph:node:size = (144, 53)
                     int ui:nodegraph:node:stackingOrder = 4580
                 }
 
@@ -526,7 +526,7 @@ def Xform "Root"
                     float outputs:outx
                     float outputs:outy
                     float2 ui:nodegraph:node:pos = (388.92914, 310.77417)
-                    float2 ui:nodegraph:node:size = (113.5, 117)
+                    float2 ui:nodegraph:node:size = (115, 127)
                     int ui:nodegraph:node:stackingOrder = 4577
                 }
 
@@ -536,7 +536,7 @@ def Xform "Root"
                     float inputs:in.connect = </Root/Earth/Earth/pan_uvs/multiply2.outputs:out>
                     float outputs:out
                     float2 ui:nodegraph:node:pos = (391, 101.5)
-                    float2 ui:nodegraph:node:size = (116, 43)
+                    float2 ui:nodegraph:node:size = (116, 53)
                     int ui:nodegraph:node:stackingOrder = 4571
                 }
 
@@ -547,7 +547,7 @@ def Xform "Root"
                     float inputs:in2.connect = </Root/Earth/Earth/pan_uvs.inputs:speed_multiplier>
                     float outputs:out
                     float2 ui:nodegraph:node:pos = (242.5, 108)
-                    float2 ui:nodegraph:node:size = (60, 36)
+                    float2 ui:nodegraph:node:size = (61, 36)
                     int ui:nodegraph:node:stackingOrder = 4571
                 }
 
@@ -556,7 +556,7 @@ def Xform "Root"
                     uniform token info:id = "ND_time_float"
                     float outputs:out
                     float2 ui:nodegraph:node:pos = (76.25, 61.75)
-                    float2 ui:nodegraph:node:size = (124.5, 43)
+                    float2 ui:nodegraph:node:size = (123, 53)
                     int ui:nodegraph:node:stackingOrder = 4571
                 }
             }
@@ -566,7 +566,7 @@ def Xform "Root"
                 uniform token info:id = "ND_texcoord_vector2"
                 float2 outputs:out
                 float2 ui:nodegraph:node:pos = (-1265.5797, -351.8806)
-                float2 ui:nodegraph:node:size = (180.5, 43)
+                float2 ui:nodegraph:node:size = (182, 53)
                 int ui:nodegraph:node:stackingOrder = 4700
             }
 
@@ -578,7 +578,7 @@ def Xform "Root"
                 float inputs:mix.connect = </Root/Earth/Earth/Image.outputs:out>
                 color3f outputs:out
                 float2 ui:nodegraph:node:pos = (-332.84357, -286.75262)
-                float2 ui:nodegraph:node:size = (109, 135)
+                float2 ui:nodegraph:node:size = (109, 145)
                 int ui:nodegraph:node:stackingOrder = 4660
             }
 
@@ -591,7 +591,7 @@ def Xform "Root"
                 color3f inputs:value.connect = None
                 color3f outputs:out
                 float2 ui:nodegraph:node:pos = (-719.3949, -603.3245)
-                float2 ui:nodegraph:node:size = (168.5, 43)
+                float2 ui:nodegraph:node:size = (169, 53)
                 int ui:nodegraph:node:stackingOrder = 4722
             }
 
@@ -605,7 +605,7 @@ def Xform "Root"
                 string inputs:vaddressmode
                 float outputs:out
                 float2 ui:nodegraph:node:pos = (-806.23505, -359.168)
-                float2 ui:nodegraph:node:size = (148.5, 189)
+                float2 ui:nodegraph:node:size = (149, 199)
                 int ui:nodegraph:node:stackingOrder = 4675
                 string[] ui:nodegraph:realitykit:node:attributesShowingChildren = ["inputs:texcoord"]
             }
@@ -616,7 +616,7 @@ def Xform "Root"
                 float inputs:value = 0.8
                 float outputs:out
                 float2 ui:nodegraph:node:pos = (-742.49744, -527.6512)
-                float2 ui:nodegraph:node:size = (231, 43)
+                float2 ui:nodegraph:node:size = (232, 53)
                 int ui:nodegraph:node:stackingOrder = 4733
             }
 
@@ -627,7 +627,7 @@ def Xform "Root"
                 float inputs:in2.connect = </Root/Earth/Earth/cloud_opacity_modifier.outputs:out>
                 color3f outputs:out
                 float2 ui:nodegraph:node:pos = (-551.1856, -572.2148)
-                float2 ui:nodegraph:node:size = (60, 36)
+                float2 ui:nodegraph:node:size = (61, 36)
                 int ui:nodegraph:node:stackingOrder = 4728
             }
         }
@@ -637,6 +637,30 @@ def Xform "Root"
             uniform token info:id = "RealityKit.Accessibility"
             bool isEnabled = 1
             string label = "Earth model"
+        }
+    }
+
+    def "Teapot_Square_White" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (0, 0, 0)
+        }
+        prepend references = @Teapot_Square_White.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (0.01, 0.01, 0.01)
+        float3 xformOp:translate = (0, 0.4756338, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Geom"
+        {
+            over "Teapot_Square_Teapot_002"
+            {
+                float3 xformOp:scale = (500, 500, 500)
+                float3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+            }
         }
     }
 }
