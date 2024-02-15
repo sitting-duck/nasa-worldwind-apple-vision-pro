@@ -640,28 +640,13 @@ def Xform "Root"
         }
     }
 
-    def "Teapot_Square_White" (
+    def "boeing_787_8" (
         active = true
-        customData = {
-            float3 rotationEulerHint = (0, 0, 0)
-        }
-        prepend references = @Teapot_Square_White.usdz@
+        prepend references = @boeing_787_8.usdz@
     )
     {
-        quatf xformOp:orient = (1, 0, 0, 0)
         float3 xformOp:scale = (0.01, 0.01, 0.01)
-        float3 xformOp:translate = (0, 0.4756338, 0)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
-
-        over "Geom"
-        {
-            over "Teapot_Square_Teapot_002"
-            {
-                float3 xformOp:scale = (500, 500, 500)
-                float3 xformOp:translate = (0, 0, 0)
-                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
-            }
-        }
     }
 }
 
