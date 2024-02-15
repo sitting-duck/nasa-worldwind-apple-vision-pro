@@ -7,18 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB617DEE2B6970F900CC6880 /* XmlDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB617DED2B6970F900CC6880 /* XmlDocument.swift */; };
-		AB617DF02B6973F100CC6880 /* Vec3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB617DEF2B6973F100CC6880 /* Vec3.swift */; };
-		ABB1CE682B59C74A000435C5 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB1CE672B59C74A000435C5 /* Colors.swift */; };
 		ABF792152B6D6A1800CB8FF6 /* Teapot.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF792142B6D6A1800CB8FF6 /* Teapot.swift */; };
 		ABF792172B6DA40C00CB8FF6 /* TeapotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF792162B6DA40C00CB8FF6 /* TeapotView.swift */; };
-		ABFD40FC2B473A1D00B1E0CE /* AVKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD40FB2B473A1D00B1E0CE /* AVKey.swift */; };
-		ABFD40FE2B47463F00B1E0CE /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD40FD2B47463F00B1E0CE /* Logger.swift */; };
-		ABFD41002B474B3400B1E0CE /* WWUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD40FF2B474B3400B1E0CE /* WWUtil.swift */; };
-		ABFD41042B476F6A00B1E0CE /* Vec2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD41032B476F6A00B1E0CE /* Vec2.swift */; };
-		ABFD41062B4774A300B1E0CE /* Offset.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD41052B4774A300B1E0CE /* Offset.swift */; };
-		ABFD41082B4C91A800B1E0CE /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD41072B4C91A800B1E0CE /* Configuration.swift */; };
-		ABFD410A2B4CB19C00B1E0CE /* WorldWind.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD41092B4CB19C00B1E0CE /* WorldWind.swift */; };
 		C200227D2988392F00732240 /* Entity+Sunlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200227C2988392F00732240 /* Entity+Sunlight.swift */; };
 		C200227F29883B3900732240 /* GlobeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200227E29883B3900732240 /* GlobeSettings.swift */; };
 		C20197A429E3D9C900C6A20F /* SatelliteEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20197A329E3D9C900C6A20F /* SatelliteEntity.swift */; };
@@ -66,18 +56,8 @@
 
 /* Begin PBXFileReference section */
 		6FD03BD460C2666C0917AC9F /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
-		AB617DED2B6970F900CC6880 /* XmlDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XmlDocument.swift; sourceTree = "<group>"; };
-		AB617DEF2B6973F100CC6880 /* Vec3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vec3.swift; sourceTree = "<group>"; };
-		ABB1CE672B59C74A000435C5 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		ABF792142B6D6A1800CB8FF6 /* Teapot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teapot.swift; sourceTree = "<group>"; };
 		ABF792162B6DA40C00CB8FF6 /* TeapotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TeapotView.swift; path = World/RealityViews/TeapotView.swift; sourceTree = SOURCE_ROOT; };
-		ABFD40FB2B473A1D00B1E0CE /* AVKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVKey.swift; sourceTree = "<group>"; };
-		ABFD40FD2B47463F00B1E0CE /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
-		ABFD40FF2B474B3400B1E0CE /* WWUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWUtil.swift; sourceTree = "<group>"; };
-		ABFD41032B476F6A00B1E0CE /* Vec2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vec2.swift; sourceTree = "<group>"; };
-		ABFD41052B4774A300B1E0CE /* Offset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offset.swift; sourceTree = "<group>"; };
-		ABFD41072B4C91A800B1E0CE /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		ABFD41092B4CB19C00B1E0CE /* WorldWind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldWind.swift; sourceTree = "<group>"; };
 		BA5D813EE652D2B6F9AA7B35 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		C200227C2988392F00732240 /* Entity+Sunlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+Sunlight.swift"; sourceTree = "<group>"; };
 		C200227E29883B3900732240 /* GlobeSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeSettings.swift; sourceTree = "<group>"; };
@@ -148,29 +128,6 @@
 			path = .;
 			sourceTree = "<group>";
 		};
-		ABFD40FA2B4739F600B1E0CE /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				ABFD40FB2B473A1D00B1E0CE /* AVKey.swift */,
-				ABFD40FD2B47463F00B1E0CE /* Logger.swift */,
-				ABFD40FF2B474B3400B1E0CE /* WWUtil.swift */,
-				ABFD41052B4774A300B1E0CE /* Offset.swift */,
-				ABFD41072B4C91A800B1E0CE /* Configuration.swift */,
-				ABB1CE672B59C74A000435C5 /* Colors.swift */,
-				AB617DED2B6970F900CC6880 /* XmlDocument.swift */,
-			);
-			path = Util;
-			sourceTree = "<group>";
-		};
-		ABFD41022B476F5200B1E0CE /* geom */ = {
-			isa = PBXGroup;
-			children = (
-				ABFD41032B476F6A00B1E0CE /* Vec2.swift */,
-				AB617DEF2B6973F100CC6880 /* Vec3.swift */,
-			);
-			path = geom;
-			sourceTree = "<group>";
-		};
 		C22CF1A829721FB100CF2EB7 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,8 +174,6 @@
 		C22D1AF028EB403400CE0F8F /* World */ = {
 			isa = PBXGroup;
 			children = (
-				ABFD41022B476F5200B1E0CE /* geom */,
-				ABFD40FA2B4739F600B1E0CE /* Util */,
 				C22D1AF128EB403400CE0F8F /* WorldApp.swift */,
 				C2DEDA222996F5ED00F5265B /* Modules */,
 				C25774D929E23F7400A75567 /* Globe */,
@@ -233,7 +188,6 @@
 				C2A51FAE29AB0AEB00217068 /* Resources */,
 				C22D1AFA28EB403600CE0F8F /* Info.plist */,
 				C22D1AF728EB403600CE0F8F /* Preview Content */,
-				ABFD41092B4CB19C00B1E0CE /* WorldWind.swift */,
 			);
 			path = World;
 			sourceTree = "<group>";
@@ -444,7 +398,6 @@
 				C253D5772947E44200B292CA /* OrbitSettings.swift in Sources */,
 				C25617D829CCB6040064FD50 /* SolarSystemControls.swift in Sources */,
 				C205CF972919CD070067444C /* Sun.swift in Sources */,
-				ABB1CE682B59C74A000435C5 /* Colors.swift in Sources */,
 				C2F2CA362A391D6B00E1C2A2 /* SatelliteSettings.swift in Sources */,
 				C2C1C8DB29ECA8CC00DA5D97 /* EarthEntity+Configuration.swift in Sources */,
 				C2A8235E2A858A1C006F6AFF /* SolarSystemToggle.swift in Sources */,
@@ -455,18 +408,11 @@
 				C25774D829E2361000A75567 /* TypeTextModifier.swift in Sources */,
 				C2F31EFE29CC02D7009742AD /* Module.swift in Sources */,
 				C2F2CA342A391D4200E1C2A2 /* EarthSettings.swift in Sources */,
-				ABFD40FE2B47463F00B1E0CE /* Logger.swift in Sources */,
-				ABFD41082B4C91A800B1E0CE /* Configuration.swift in Sources */,
-				ABFD41002B474B3400B1E0CE /* WWUtil.swift in Sources */,
 				C2F31EFC29CC01BC009742AD /* TableOfContents.swift in Sources */,
 				C2DEDA242996FAAB00F5265B /* GlobeControls.swift in Sources */,
-				ABFD40FC2B473A1D00B1E0CE /* AVKey.swift in Sources */,
-				ABFD410A2B4CB19C00B1E0CE /* WorldWind.swift in Sources */,
-				AB617DEE2B6970F900CC6880 /* XmlDocument.swift in Sources */,
 				C2E652D42919E41A007934BC /* SolarSystemSettings.swift in Sources */,
 				C2F31EF829CA8F4E009742AD /* Modules.swift in Sources */,
 				C20197A629E4805900C6A20F /* SatelliteEntity+Configuration.swift in Sources */,
-				AB617DF02B6973F100CC6880 /* Vec3.swift in Sources */,
 				C25774DB29E23F8D00A75567 /* GlobeModule.swift in Sources */,
 				ABF792172B6DA40C00CB8FF6 /* TeapotView.swift in Sources */,
 				C25774E129E240EC00A75567 /* OrbitModule.swift in Sources */,
@@ -478,11 +424,9 @@
 				C2B0AEEF2994B39300021509 /* TraceSystem.swift in Sources */,
 				C2E652D8291B09AC007934BC /* SolarSystem.swift in Sources */,
 				C258918F2975EB7E0071BD5F /* SliderGridRow.swift in Sources */,
-				ABFD41042B476F6A00B1E0CE /* Vec2.swift in Sources */,
 				C2CD36432A3A7682003811D3 /* ModuleCard.swift in Sources */,
 				C20197A429E3D9C900C6A20F /* SatelliteEntity.swift in Sources */,
 				C255636A291D8A0300398FCE /* Orbit.swift in Sources */,
-				ABFD41062B4774A300B1E0CE /* Offset.swift in Sources */,
 				C2F31F0029CC0858009742AD /* ModuleDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
