@@ -140,7 +140,7 @@ extension ModelEntity {
         }
         let traceMap = MaterialParameters.Texture(traceResource)
         var material = UnlitMaterial(color: .white)
-        material.opacityThreshold = 0
+        material.opacityThreshold = 1
         material.blending = .transparent(opacity: .init(texture: traceMap))
        
         return ModelEntity(mesh: try .generate(from: contents),

@@ -19,9 +19,10 @@ extension EarthEntity {
         var position: SIMD3<Float> = .zero
         var date: Date? = nil
 
-        var showPoles: Bool = false
+        var showPoles: Bool = true
         var poleLength: Float = 0.875
         var poleThickness: Float = 0.75
+        var showGrid = true;
 
         var showSun: Bool = true
         var sunIntensity: Float = 14

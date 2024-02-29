@@ -3,6 +3,18 @@
     "objectMetadataList" : [
       [
         "6AF421D5-F098-4D35-8830-F4BB228EF79A",
+        "Root",
+        "boeing_787_1"
+      ],
+      {
+        "isExpanded" : false,
+        "isLocked" : false,
+        "selectedAudioFilePrim" : {
+          "string" : "\/Root\/large_rocket_engine_86240_mp3"
+        }
+      },
+      [
+        "6AF421D5-F098-4D35-8830-F4BB228EF79A",
         "Root"
       ],
       {
@@ -21,8 +33,32 @@
       [
         "6AF421D5-F098-4D35-8830-F4BB228EF79A",
         "Root",
+        "boeing_787_9_2"
+      ],
+      {
+        "isExpanded" : false,
+        "isLocked" : false,
+        "selectedAudioFilePrim" : {
+          "string" : "\/Root\/large_rocket_engine_86240_mp3"
+        }
+      },
+      [
+        "6AF421D5-F098-4D35-8830-F4BB228EF79A",
+        "Root",
         "Earth",
         "Earth"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "7E3EB360-3167-4A98-817C-D0D513EE32A2" : {
+    "objectMetadataList" : [
+      [
+        "7E3EB360-3167-4A98-817C-D0D513EE32A2",
+        "Root"
       ],
       {
         "isExpanded" : true,

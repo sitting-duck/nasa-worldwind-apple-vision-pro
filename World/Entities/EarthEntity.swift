@@ -100,6 +100,18 @@ class EarthEntity: Entity {
             satelliteConfiguration: satelliteConfiguration,
             moonConfiguration: moonConfiguration,
             animateUpdates: false)
+        
+        // Enable the earth entity for input. ie for gestures such as the user "tapping" on the Earth.
+        earth.components.set(InputTargetComponent())
+        var collision = CollisionComponent(shapes: [.generateSphere(radius: 0.6)]) // todo: grab config and get size
+        collision.filter = CollisionFilter(group: [], mask: [])
+        earth.components.set(collision)
+        
+        // Create a collision component with an empty group and mask.
+        // We're doing an "empty group and mask" so that we don't have to deal with physics,
+        // we just want to catch the tap gesture.
+        // boop var collision = CollisionComponent(shapes:)
+        
     }
 
     // MARK: - Updates

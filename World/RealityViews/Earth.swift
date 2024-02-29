@@ -53,39 +53,20 @@ struct Earth: View {
                 moonConfiguration: moonConfiguration,
                 animateUpdates: animateUpdates)
         }
-        .onTapGesture(count: 1) {
+        .onTapGesture() { value in
             print("Earth tapped")
+            print("Tapped Entity: \(value)")
             // Perform your action here
-            let newRotation = simd_quatf(angle: .pi / 4, axis: [0, 1, 0]) // Example rotation
-                        earthConfiguration.rotation = newRotation
-
-                        // Apply the updated configuration
-                        earthEntity?.update(
-                            configuration: earthConfiguration,
-                            satelliteConfiguration: satelliteConfiguration,
-                            moonConfiguration: moonConfiguration,
-                            animateUpdates: animateUpdates)
-        }.gesture(
-            DragGesture()
-                .updating($dragState) { drag, state, _ in
-                    state = drag.translation
-                }
-                .onEnded { _ in
-                    let dragX = dragState.width
-                    let dragY = dragState.height
-                    // Convert the 2D drag gesture into a 3D rotation
-                    // This is a simplified example and may need to be adjusted
-                    let newRotation = simd_quatf(angle: .pi * Float(dragX / 200), axis: [0, 1, 0])
-                    earthConfiguration.rotation *= newRotation
-
-                    // Apply the updated configuration
-                    earthEntity?.update(
-                        configuration: earthConfiguration,
-                        satelliteConfiguration: satelliteConfiguration,
-                        moonConfiguration: moonConfiguration,
-                        animateUpdates: animateUpdates)
-                }
-        )
+//            let newRotation = simd_quatf(angle: .pi / 4, axis: [0, 1, 0]) // Example rotation
+//                        earthConfiguration.rotation = newRotation
+//
+//                        // Apply the updated configuration
+//                        earthEntity?.update(
+//                            configuration: earthConfiguration,
+//                            satelliteConfiguration: satelliteConfiguration,
+//                            moonConfiguration: moonConfiguration,
+//                            animateUpdates: animateUpdates)
+        }
     }
 }
 
