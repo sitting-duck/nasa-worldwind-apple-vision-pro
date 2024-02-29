@@ -56,17 +56,17 @@ struct Earth: View {
         .onTapGesture() { value in
             print("Earth tapped")
             print("Tapped Entity: \(value)")
-            // Perform your action here
-//            let newRotation = simd_quatf(angle: .pi / 4, axis: [0, 1, 0]) // Example rotation
-//                        earthConfiguration.rotation = newRotation
-//
-//                        // Apply the updated configuration
-//                        earthEntity?.update(
-//                            configuration: earthConfiguration,
-//                            satelliteConfiguration: satelliteConfiguration,
-//                            moonConfiguration: moonConfiguration,
-//                            animateUpdates: animateUpdates)
         }
+        .gesture(
+            
+            DragGesture().targetedToAnyEntity()
+            .onChanged { value in
+                print("dragging")
+            }
+            .onEnded { value in
+                print("drag ended")
+            }
+        )
     }
 }
 
